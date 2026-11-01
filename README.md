@@ -1,6 +1,6 @@
 # Tamafarm — akses dengan password
 
-Salinan proyek Tamafarm ini memakai password akses website sebelum halaman aplikasi dan API dapat digunakan. Password ini terpisah dari password akun pelanggan, admin, dan pemilik.
+Salinan proyek Tamafarm ini memerlukan aktivasi melalui file `backend/.env`. Sebelum menjalankan website, penerima harus meminta password kepada pemilik proyek dan mengisinya secara manual. Tidak ada form password aktivasi di browser.
 
 ## Persiapan
 
@@ -11,7 +11,7 @@ Salinan proyek Tamafarm ini memakai password akses website sebelum halaman aplik
    WEBSITE_ACCESS_PASSWORD="isi-password-akses-di-sini"
    ```
 
-   Minta password kepada pemilik proyek. Jangan menyimpan password asli di Git. Nilai kosong membuat website tetap terkunci.
+   Isi dengan password dari pemilik proyek, bukan password baru buatan sendiri. Password diperiksa terhadap hash bcrypt yang disertakan di repository. Nilai kosong atau salah membuat aktivasi ditolak. Jangan menyimpan password asli di Git.
 3. Sesuaikan koneksi database di `.env`, lalu jalankan:
 
    ```bash
@@ -23,11 +23,13 @@ Salinan proyek Tamafarm ini memakai password akses website sebelum halaman aplik
    ```
 
 4. Di folder `frontend`, jalankan `npm ci` lalu `npm run dev`.
-5. Buka frontend dan masukkan password akses website, kemudian login akun seperti biasa.
+5. Jika aktivasi benar, frontend dapat dibuka dan pengguna login akun seperti biasa. `npm run dev` dan `npm run preview` menolak mulai jika aktivasi belum valid. PHP harus tersedia di PATH terminal.
 
 Setelah mengubah password di `.env`, jalankan `php artisan config:clear` dan mulai ulang backend. Untuk deployment yang menggunakan cache konfigurasi, bangun ulang cache dengan `php artisan config:cache`. Gunakan HTTPS untuk akses melalui internet.
 
-Password akses dikirim ke backend untuk setiap permintaan API dan disimpan di sessionStorage tab browser. Jangan menaruh password ini pada variabel `VITE_*`. Aset statis frontend bukan tempat menyimpan rahasia. Notifikasi Midtrans tetap menggunakan verifikasi tanda tangan pembayaran sendiri.
+Password aktivasi hanya dibaca di sisi server dan saat Vite memeriksa konfigurasi lokal. Password tidak dikirim ke browser dan tidak disimpan di sessionStorage. Jangan menaruh password ini pada variabel `VITE_*`. Build aset dapat dilakukan tanpa aktivasi, tetapi halaman aplikasi dan API tetap memerlukan backend yang diaktifkan. Notifikasi Midtrans tetap menggunakan verifikasi tanda tangan pembayaran sendiri.
+
+Password yang diterima harus cocok dengan hash yang sudah ditetapkan oleh pemilik. Mengubah nilai `.env` saja menjadi password lain tidak mengubah password yang diterima aplikasi.
 
 ## Batasan
 

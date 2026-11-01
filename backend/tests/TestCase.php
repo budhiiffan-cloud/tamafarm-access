@@ -10,7 +10,9 @@ abstract class TestCase extends BaseTestCase
     {
         parent::setUp();
 
-        config(['website.password' => 'website-test-password']);
-        $this->withHeaders(['X-Website-Password' => 'website-test-password']);
+        config([
+            'website.password' => 'website-test-password',
+            'website.password_hash' => password_hash('website-test-password', PASSWORD_BCRYPT, ['cost' => 4]),
+        ]);
     }
 }

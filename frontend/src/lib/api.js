@@ -1,5 +1,3 @@
-import { getWebsitePassword, setWebsitePassword } from './websiteAccess'
-
 // Pembungkus fetch untuk API Tamafarm (Laravel + Sanctum, token Bearer).
 const BASE = (import.meta.env.VITE_API_URL || '/api').replace(/\/$/, '')
 const TOKEN_KEY = 'tamafarm_token'
@@ -17,7 +15,7 @@ export class ApiError extends Error {
 }
 
 async function request(path, { method = 'GET', body, form, headers: extraHeaders = {} } = {}) {
-  const headers = { 'X-Website-Password': getWebsitePassword(), ...extraHeaders, Accept: 'application/json' }
+  const headers = { ...extraHeaders, Accept: 'application/json' }
   const token = getToken()
   if (token) headers.Authorization = `Bearer ${token}`
 
@@ -44,8 +42,7 @@ async function request(path, { method = 'GET', body, form, headers: extraHeaders
   }
 
   if (!res.ok) {
-    if (res.status === 423) {
-      setWebsitePassword('')
+    if (json?.code === 'WEBSITE_ACTIVATION_REQUIRED') {
       window.dispatchEvent(new Event('website:locked'))
     }
     if (res.status === 401 && token && path !== '/login') {
