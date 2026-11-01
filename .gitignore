@@ -1,0 +1,27 @@
+# Local build artifacts, reports, and separate showcase repository.
+/.build-temp/
+/output/
+/tmp/
+
+# Local environment files. Keep configuration templates available.
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local credentials and private keys.
+**/auth.json
+**/*service-account*.json
+**/*.pem
+**/*.key
+
+# Local databases and database journal files.
+**/*.sqlite
+**/*.sqlite-*
+**/*.sqlite3
+
+# Generated Laravel caches and runtime storage.
+/backend/bootstrap/cache/*
+!/backend/bootstrap/cache/.gitignore
+/backend/storage/**
+!/backend/storage/**/
+!/backend/storage/**/.gitignore

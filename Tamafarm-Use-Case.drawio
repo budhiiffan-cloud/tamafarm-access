@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" agent="Codex" version="24.7.17" type="device">
+  <diagram id="page-1" name="01 — Akses publik dan akun pembeli">
+    <mxGraphModel dx="1400" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1460" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="TAMAFARM | DIAGRAM USE CASE" style="text;html=0;fontSize=26;fontStyle=1;fontColor=#14532d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1320" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="01 — Akses publik dan akun pembeli" style="text;html=0;fontSize=17;fontColor=#475569;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="75" width="1320" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Sistem Tamafarm" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#334155;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=20;spacingTop=15;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="850" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Pengunjung" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#334155;fontColor=#0f172a;fontSize=16;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="270" width="110" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Pembeli&#10;(pelanggan)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#334155;fontColor=#0f172a;fontSize=16;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="820" width="110" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Melihat katalog, harga,&#10;mencari dan memfilter produk" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="195" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Melihat detail produk&#10;dan minimal pembelian" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Mendaftar akun pembeli" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="425" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Login / logout" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="560" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Melihat dan memperbarui&#10;profil pembeli [API]" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="675" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Mengubah password [API]" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="790" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Melihat riwayat pesanan" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="905" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Berkonsultasi melalui chat" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1020" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Pembeli mencakup perorangan, restoran, dan pembeli luar negeri. Ketiganya memakai role pelanggan; minimum pembelian mengikuti tipe pembeli." style="shape=note;whiteSpace=wrap;html=0;fillColor=#fffbeb;strokeColor=#d97706;fontColor=#713f12;fontSize=14;align=left;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="410" width="245" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="[API] = tersedia di backend, belum ada halaman khusus pada frontend.&#10;&#10;Chat pada frontend memerlukan login. Backend juga mendukung sesi chat tamu dengan token." style="shape=note;whiteSpace=wrap;html=0;fillColor=#fffbeb;strokeColor=#d97706;fontColor=#713f12;fontSize=14;align=left;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="750" width="245" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Asosiasi: garis utuh menghubungkan aktor dengan tujuan pengguna.&#10;Sumber: frontend/src/App.jsx, halaman publik, backend/routes/api.php, AuthController, BuyerProfileController, ConsultationController.&#10;Disusun berdasarkan kode aplikasi pada 12 Oktober 2026." style="text;whiteSpace=wrap;html=0;fontSize=13;fontColor=#475569;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1270" width="1320" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-2" name="02 — Pemesanan, penawaran, dan pembayaran">
+    <mxGraphModel dx="1400" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1460" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="TAMAFARM | DIAGRAM USE CASE" style="text;html=0;fontSize=26;fontStyle=1;fontColor=#14532d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1320" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="02 — Pemesanan, penawaran, dan pembayaran" style="text;html=0;fontSize=17;fontColor=#475569;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="75" width="1320" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Sistem Tamafarm" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#334155;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=20;spacingTop=15;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="850" height="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Pembeli&#10;(akun / tamu)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#334155;fontColor=#0f172a;fontSize=16;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="570" width="110" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Midtrans&#10;(sistem eksternal)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#334155;fontColor=#0f172a;fontSize=16;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="730" width="110" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Mengajukan pesanan lobster" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="195" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Melihat detail dan status pesanan" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Menerima / menolak&#10;penawaran harga admin" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="425" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Membayar DP / pelunasan&#10;melalui Midtrans" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="540" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Memeriksa status pembayaran" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="655" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Mengunggah bukti transfer&#10;DP / pelunasan" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="770" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Melihat bukti pembayaran" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="885" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Mengonfirmasi pesanan diterima" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1000" width="330" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Menerima notifikasi&#10;status pembayaran" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f0fdf4;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1085" width="275" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Pesanan tamu diakses menggunakan kode pesanan dan token akses. Pembeli yang login mengakses pesanan miliknya." style="shape=note;whiteSpace=wrap;html=0;fillColor=#fffbeb;strokeColor=#d97706;fontColor=#713f12;fontSize=14;align=left;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="230" width="245" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Transfer manual dan akses bukti pembayaran memerlukan akun pelanggan.&#10;&#10;DP / pelunasan serta konfirmasi penerimaan mengikuti status pesanan dan penawaran." style="shape=note;whiteSpace=wrap;html=0;fillColor=#fffbeb;strokeColor=#d97706;fontColor=#713f12;fontSize=14;align=left;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="870" y="430" width="245" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Midtrans adalah aktor eksternal untuk pembayaran online dan notifikasi pembayaran (webhook).&#10;Sumber: BuyerOrderController, PaymentController, ManualPaymentController, OrderAccess, Checkout.jsx, BuyerOrderDetail.jsx.&#10;Login adalah prasyarat fitur akun; tidak dimodelkan sebagai include yang wajib pada pesanan tamu." style="text;whiteSpace=wrap;html=0;fontSize=13;fontColor=#475569;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1270" width="1320" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-3" name="03 — Pengelolaan admin dan pemilik">
+    <mxGraphModel dx="1400" dy="1680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1680" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="TAMAFARM | DIAGRAM USE CASE" style="text;html=0;fontSize=26;fontStyle=1;fontColor=#14532d;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="1320" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="03 — Pengelolaan admin dan pemilik" style="text;html=0;fontSize=17;fontColor=#475569;align=left;" vertex="1" parent="1">
+          <mxGeometry x="40" y="75" width="1320" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Sistem Tamafarm" style="rounded=0;html=0;fillColor=#ffffff;strokeColor=#334155;strokeWidth=2;verticalAlign=top;align=left;spacingLeft=20;spacingTop=15;fontSize=20;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="130" width="850" height="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#334155;fontColor=#0f172a;fontSize=16;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="75" y="620" width="110" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Pemilik" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=0;outlineConnect=0;fillColor=#ffffff;strokeColor=#334155;fontColor=#0f172a;fontSize=16;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="270" width="110" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Login / logout" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f0fdf4;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="590" y="195" width="280" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Melihat dashboard usaha" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f0fdf4;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="590" y="300" width="280" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Mengelola akun admin&#10;(tambah, ubah, hapus)" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f0fdf4;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="820" y="450" width="285" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="6" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Mengelola kategori lobster" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="425" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Mengelola produk, harga, stok,&#10;foto dan minimum pembelian" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="540" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Melihat / mencari pesanan&#10;(kode atau pindai QR)" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="655" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Membuat / memperbarui&#10;penawaran harga" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="770" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Menolak pesanan" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="885" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Memverifikasi / menolak&#10;bukti transfer pembeli" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1000" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="Mencatat pengiriman pesanan" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1115" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="Menanggapi konsultasi pembeli" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1230" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="Melihat laporan transaksi" style="ellipse;whiteSpace=wrap;html=0;fillColor=#eff6ff;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="1345" width="340" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="5" target="31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="Mengekspor laporan CSV" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f0fdf4;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1240" width="285" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="Mencetak laporan" style="ellipse;whiteSpace=wrap;html=0;fillColor=#f0fdf4;strokeColor=#475569;fontColor=#0f172a;fontSize=16;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1350" width="285" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="&lt;&lt;extend&gt;&gt;" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="33" target="31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="&lt;&lt;extend&gt;&gt;" style="edgeStyle=none;html=0;rounded=0;endArrow=none;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="34" target="31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="Hak akses mengikuti backend:&#10;Admin mengelola operasional.&#10;Pemilik mengelola akun admin dan melihat dashboard.&#10;&#10;Frontend juga menampilkan menu operasional kepada pemilik, tetapi API membatasi endpoint tersebut ke admin." style="shape=note;whiteSpace=wrap;html=0;fillColor=#fffbeb;strokeColor=#d97706;fontColor=#713f12;fontSize=14;align=left;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="820" y="590" width="285" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="Laporan budidaya masih berupa data contoh pada frontend. Belum ada pengelolaan kolam, kualitas air, pakan, pertumbuhan, dan panen di API; fitur tersebut tidak dianggap sudah operasional." style="shape=note;whiteSpace=wrap;html=0;fillColor=#fffbeb;strokeColor=#d97706;fontColor=#713f12;fontSize=14;align=left;spacing=15;" vertex="1" parent="1">
+          <mxGeometry x="820" y="865" width="285" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="&lt;&lt;extend&gt;&gt;: aksi opsional saat melihat laporan; panah menuju use case dasar. Kondisi: pengguna memilih Unduh CSV atau Cetak.&#10;Semua fitur panel mensyaratkan login sesuai role. Chat pemilik pada thread yang dapat diakses juga didukung backend.&#10;Sumber: backend/routes/api.php, AdminOrderController, ManualPaymentController, UserController, DashboardController, panel/Laporan.jsx." style="text;whiteSpace=wrap;html=0;fontSize=13;fontColor=#475569;align=left;verticalAlign=top;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1490" width="1320" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
